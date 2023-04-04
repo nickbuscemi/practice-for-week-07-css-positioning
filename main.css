@@ -11,61 +11,61 @@ html, body {
     box-sizing: border-box;
     display: inline-block;
     width: 100px;
-    height: 280px;
+    height: 2880px;
     font-size: 36px;
 }
 
 #yellow-box {
     background-color: #ffff00;
-    /* Fill these in
-    position: ;
+    
+    position: relative;
     bottom: 0;
-    left: 0;
+    left: 593px;
     right: 0;
     top: 0;
-    z-index: ;
+    z-index: 5;
 }
 
 #pink-box {
     background-color: #ff69b4;
-    /* Fill these in
-    position: ;
+    
+    position: relative;
     bottom: 0;
-    left: 0;
+    left: 588px;
     right: 0;
-    top: 0;
-    z-index: ;
+    top: ;
+    z-index: 4;
 }
 
 #blue-box {
     background-color: #00eeee;
-    /* Fill these in
-    position: ;
+    
+    position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 792px;
+    right: ;
     top: 0;
-    z-index: ;
+    z-index: 3;
 }
 
 #red-box {
     background-color: #ff0000;
-    /* Fill these in
-    position: ;
+    
+    position: fixed;
     bottom: 0;
-    left: 0;
+    left: 900px;
     right: 0;
-    top: 0;
-    z-index: ;
+    top: 90px;
+    z-index: 2;
 }
 
 #orange-box {
     background-color: #ffa500;
-    /* Fill these in
-    position: ;
+   
+    position: sticky;
     bottom: 0;
-    left: 0;
+    left: 1000px;
     right: 0;
     top: 0;
-    z-index: ;
+    z-index: 1;
 }
